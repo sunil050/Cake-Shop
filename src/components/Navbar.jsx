@@ -14,8 +14,8 @@ const Navbar = () => {
               <div onClick={()=> setNav(!nav)} className='cursor-pointer'>
                 <AiOutlineMenu size={30} />
               </div>
-             <h1 className='text-purple-500 font-bold sm:text-3xl lg:text-4xl px-2'>
-                <spn className='text-purple-500'>Py</spn>cake<span className='text-purple-500'>Stories</span>
+             <h1 className='text-pink-500 font-bold mx-6 text-3xl sm:text-3xl lg:text-4xl px-2'>
+                <spn className='text-purple-400'>py</spn>cake<span className='text-purple-400'>stories</span>
              </h1>
              {/* <div className='hidden lg:flex items-center bg-gray-200
              rounded-full p-1 text-[14px]'>
@@ -30,7 +30,7 @@ const Navbar = () => {
             px-2 w-[200px] sm:w-[400px] lg:w-[500px]'>
                 <AiOutlineSearch size={25} />
                 <input className='bg-transparent p-2 w-full
-                focus:outline-none' type="text" placeholder='Search foods'/>
+                focus:outline-none' type="text" placeholder='Search cakes'/>
             </div>
             {/*Cart Button */}
             <button className='bg-black text-white hidden md:flex 
@@ -53,7 +53,7 @@ const Navbar = () => {
               size={30} className='absolute right-4 top-4
              cursor-pointer'/>
              <h2 className='text-2xl p-4'>
-                Best <span className='font-bold'>Eats</span>
+                py<span className='font-bold'>cakestories</span>
              </h2>
               <nav>
                  <ul className='flex flex-col p-4'>
