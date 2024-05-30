@@ -15,7 +15,7 @@ const Navbar = () => {
                 <AiOutlineMenu size={30} />
               </div>
              <h1 className='text-pink-500 font-bold mx-6 text-3xl sm:text-3xl lg:text-4xl px-2'>
-                <spn className='text-purple-400'>py</spn>cake<span className='text-purple-400'>stories</span>
+                <spn className='text-pink-500'>py</spn>cake<span className='text-pink-500'>stories</span>
              </h1>
              {/* <div className='hidden lg:flex items-center bg-gray-200
              rounded-full p-1 text-[14px]'>
@@ -33,7 +33,7 @@ const Navbar = () => {
                 focus:outline-none' type="text" placeholder='Search cakes'/>
             </div>
             {/*Cart Button */}
-            <button className='bg-black text-white hidden md:flex 
+            <button className='bg-pink-500 text-black hidden md:flex 
             items-center py-2 rounded-full'>
                 <BsFillCartFill size={20} className='mr-2'/> Cart
             </button>
@@ -52,8 +52,8 @@ const Navbar = () => {
               onClick={() => setNav(!nav)}
               size={30} className='absolute right-4 top-4
              cursor-pointer'/>
-             <h2 className='text-2xl p-4'>
-                py<span className='font-bold'>cakestories</span>
+             <h2 className='font-bold text-2xl p-4 text-pink-500'>
+                pycakestories
              </h2>
               <nav>
                  <ul className='flex flex-col p-4'>
