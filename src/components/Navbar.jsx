@@ -8,13 +8,13 @@ import { MdFavorite, MdHelp } from 'react-icons/md';
 const Navbar = () => {
  const [nav, setNav] = useState(false)
     return (
-        <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4'>
+        <div className='max-w-[1640px] mx-auto flex justify-between items-center p-4 md:sticky md:top-0 md:z-10 bg-white '>
             {/* {Left Side} */}
             <div className='flex items-center'>
               <div onClick={()=> setNav(!nav)} className='cursor-pointer'>
                 <AiOutlineMenu size={30} />
               </div>
-             <h1 className='text-pink-500 font-bold mx-6 text-3xl sm:text-3xl lg:text-4xl px-2'>
+             <h1 className='text-pink-500 font-bold mx-6 text-1xl md:text-2xl sm:text-3xl lg:text-4xl px-2'>
                 <spn className='text-pink-500'>py</spn>cake<span className='text-pink-500'>stories</span>
              </h1>
              {/* <div className='hidden lg:flex items-center bg-gray-200
@@ -27,7 +27,7 @@ const Navbar = () => {
 
             {/* Search Input */}
             <div className='bg-gray-200 rounded-full flex items-center
-            px-2 w-[200px] sm:w-[400px] lg:w-[500px]'>
+            px-2 w-[150px] sm:w-[400px] lg:w-[500px]'>
                 <AiOutlineSearch size={25} />
                 <input className='bg-transparent p-2 w-full
                 focus:outline-none' type="text" placeholder='Search cakes'/>
